@@ -13,4 +13,7 @@ function resetStyle() {
     console.log("click");
 
     let p = document.getElementById("text");
+    p.style.margin = "16px";
+    p.style.color = "rgb(157, 211, 255)";
+    p.style.fontSize = "16px";
 }
